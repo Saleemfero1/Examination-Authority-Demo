@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.Examination_Authority{
+	background-color: limegreen;
+	margin: 1vh;
+	border-radius: 5px;
+}
+
+.Examination_Authority .img1{
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .img2{
+	position: absolute;
+	margin: -13vh 0vh 0vh 170vh;
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .text h1{
+	position: absolute;
+	margin: -10vh 0vh 0vh 80vh;
+}
+.Examination_Authority .text h2{
+	position: absolute;
+	margin: -5vh 0vh 0vh 100vh;
+}
+
+#navigation_bar{
+	border: 2px solid grey;
+	position: absolute;
+	margin: 1vh;
+	margin-left: 18.5% ;
+	padding: 1.5vw;
+	word-spacing: 5px;
+	border-radius: 5px;
+
+}
+#navigation_bar a .fas{
+	padding-left: 6px;
+}
+
+#navigation_bar a{
+	margin: 10px;
+	text-decoration: none;
+	color: blue;
+	padding: 20px;
+}
+#navigation_bar a:hover{
+	padding: 15px;
+	background-color: lightgreen;
+	border-radius: 4px;
+}
+
+#navigation_bar #active  {
+	padding: 15px;
+	background-color: lightgreen;
+	border-radius: 4px;
+}
+
+#admission_circulars{
+	margin: 12vh 2vh 2vh 2vh;
+	padding: 2vh 2vh 2vh 2vh;
+	background-color: lightsalmon;
+	border-radius: 5px;
+}
+
+#admission_circulars h1{
+	font-size: 23px;
+	padding: 0vh 0vh 0vh 85vh;
+}
+
+#admission_circulars a{
+	text-decoration: none;
+}
+
+#content p{
+border: 2px solid grey;
+background-color: lightgray;
+font-size: 20px;
+padding: 2vh 2vh 2vh 20vh;
+margin: 0vh 40vh 1vh 45vh;
+border-radius: 10px;
+color: blue;
+overflow: hidden;
+}
+
+#content a{
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#foot {
+	position: absolute;
+	margin: 31vh 0vh 0vh 0vh;
+	background-color: palevioletred;
+	padding: 10px;
+}
+
+#foot h1{
+	text-align: center;
+	padding: 0vw 40vw 0vw 40vw;
+	font-size: 25px;
+}
+
+#foot p{
+	text-align: center;
+}

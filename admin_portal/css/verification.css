@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*-----------------------header--------------------------*/
+.Examination_Authority{
+	background-color: #232946;
+	margin: 1vh;
+	border-radius: 5px;
+}
+
+.Examination_Authority .img1{
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .img2{
+	position: absolute;
+	margin: -13vh 0vh 0vh 190vh;
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .text h1{
+	position: absolute;
+	margin: -10vh 0vh 0vh 80vh;
+	color: white;
+}
+.Examination_Authority .text h2{
+	position: absolute;
+	margin: -5vh 0vh 0vh 102vh;
+	color: white;
+}
+
+#heading{
+	margin: 0vh 0vh 0vh 10vh;
+	font-size: 16px;
+	color: #7F5AF0;
+}
+
+
+/*history back button*/
+/*----------history button------------*/
+#back_button{
+	margin: -6vh 0vh 0vh 190vh;
+}
+#back_button input{
+	padding: 8px;
+	border-radius: 4px;
+	background-color: lightblue;
+	padding-left: 20px; 	
+	padding-right: 20px;
+	font-size: 18px;
+	font-family: serif;
+	color: #f06a11;
+	cursor: pointer;
+}
+
+/*---------------------login heading-----------------*/
+#Login{
+	margin: 7vh 0vh 0vh 8vh;
+}
+
+
+
+#login_panel{
+	margin: 4vh 50vh 0vh 62vh;
+	padding: 24px;
+	background-color: #8c95bf;
+	border-radius: 10px;
+}
+
+#login_panel form table td{
+	font-size: 22px;
+	font-family: times;
+	padding: 5px;
+}
+
+#login_panel form table td input{
+	width: 100%;
+	padding: 4px;
+	border-radius: 5px;
+}
+
+#login_panel form input[type=submit]
+{
+	margin: 3vh 3vh 3vh 8vh;
+	border-radius: 5px;
+	font-size: 22px;
+	padding: 5px;
+	background-color: #86f789;
+	font-family: times;
+}
+

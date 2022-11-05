@@ -1,0 +1,364 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fcfadc;
+}
+
+.Examination_Authority{
+	background-color: #026670;
+	margin: 1vh;
+	border-radius: 5px;
+}
+
+.Examination_Authority .img1{
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .img2{
+	position: absolute;
+	margin: -13vh 0vh 0vh 190vh;
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .text h1{
+	color: white;
+	position: absolute;
+	margin: -11vh 0vh 0vh 75vh;
+}
+.Examination_Authority .text h2{
+	color: #FEF9C7;
+	position: absolute;
+	margin: -5vh 0vh 0vh 102vh;
+}
+
+
+#student_id{
+	margin-left: 10px;
+}
+
+#student_id p{
+	font-size: 18px;
+}
+
+#student_id span{
+	color: blue;
+	font-size: 20px;
+}
+
+#student_id label{
+	margin-left: 10px;
+}
+/*-----------------------Selection tab--------------------------*/
+
+
+
+#selection_tab{
+	margin: -2vh 37vh 0vh 45vh;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #FCE181;
+}
+
+#selection_tab button{
+	padding: 6px 8px 5px 9px;
+	font-size: 16px;
+	margin: 0vh 0vh 0vh 2vh;
+	cursor: pointer;
+	background-color: #EDEAE5;
+	font-family: times;
+	border-radius: 10px;
+}
+
+#selection_tab #active{
+	background-color: #FEF9C7;
+	color: black;
+	animation: effect 2s linear infinite;
+	cursor: none;
+}
+
+
+
+@keyframes effect{
+	0%{
+		border: #F7F40E;
+	}
+	30%{
+		border: #FCFAFA;
+	}
+	50%{
+		border: #F7F40E;
+	}
+	100%{
+		border: #FCFAFA;
+	}
+}
+
+/*-----------------------Option Selection--------------------------*/
+
+#option_selection{
+	margin: 3vh 70vw 0vh 15vh;
+	overflow: scroll; 
+	height: 450px; 	
+	overflow-x: hidden;
+	padding: 0vh 0vh 0vh 0vh;
+	border-radius: 5px;
+}
+
+#option_selection::-webkit-scrollbar{
+	width: 0;
+	background-color: transparent;
+}
+
+#option input[type=submit]
+{
+	margin: 3vh 0vh 0vh 32vh;
+	padding: 8px 15px 8px 15px;
+	border-radius: 5px 0px 5px 0px;
+	font-size: 18px;
+	font-family: times;
+}
+
+#option_selection #heading{
+	background-color: #206369;
+	padding: 4px;
+	font-size: 19px;
+	position: sticky;
+	top: 0;
+	color: white;
+}
+
+#option_selection span{
+	font-size: 18px;
+	
+}
+
+#option_selection #collage_name{
+	background-color: #FCE181;
+	margin: 2px 0vh 0vh 0vh;
+	border-radius: 5px;
+}
+
+
+#option_selection #collages_list{
+	background-color: #EDEAE5;
+}
+
+#option_selection #collages_list table{
+	margin-left: 0vh;
+
+}
+
+#option_selection #collages_list th{
+	font-size: 17px;
+	border: 2px solid grey;
+	width: 12%;
+	position: center;
+	background-color: #6cb1b8;
+
+}
+
+
+#option_selection #collages_list td{
+	padding: 5px 0px 5px 0px;
+	font-size: 17px;
+	position: center;
+
+}
+
+#option_selection #collages_list td input{
+	width: 55%;
+	padding: 2px 6px 2px 6px;
+	border-radius: 3px;
+}
+
+#option #option_entry 
+{
+	margin-top: 5vh;
+	margin-left: 26vh;
+	color: red;
+	font-family: times;
+	font-size: 22px;
+}
+
+
+/*-----------------------Option selected--------------------------*/
+
+#selected{
+	margin: -70vh 39vw 0vh 75vh;
+	overflow: scroll; 
+	height: 447px; 	
+	overflow-x: hidden;
+	padding: 0vh 0vh 0vh 0vh;
+	border-radius: 5px;
+}
+
+#selected::-webkit-scrollbar{
+	width: 0;
+	background-color: transparent;
+}
+
+#selected #heading{
+	background-color: #206369;
+	padding: 4px;
+	font-size: 19px;
+	position: sticky;
+	top: 0;
+	color: white;
+}
+
+
+#selected #collages_list{
+	background-color: #EDEAE5;
+}
+
+#selected #collages_list table{
+	margin-left: 0vh;
+	border-radius: 20px;
+}
+
+#selected #collages_list th{
+	font-size: 17px;
+	border: 2px solid grey;
+	width: 12%;
+	position: center;
+	background-color: #6cb1b8;
+
+}
+
+#selected #collages_list td{
+	padding: 10px;
+	padding: 5px 0px 5px 0px;
+	font-size: 17px;
+	position: center;
+}
+
+
+/*-----------------------Collage allocated--------------------------*/
+
+#Collage_allocated{
+	margin: -61vh 3vw 0vh 140vh;
+	overflow: scroll; 
+	height: 201px; 	
+	overflow-x: hidden;
+	background-color: #EDEAE5;
+	padding: 0vh 0vh 0vh 0vh;
+	border-radius: 5px;
+}
+
+#Collage_allocated::-webkit-scrollbar{
+	width: 0;
+	background-color: transparent;
+}
+
+#Collage_allocated #heading{
+	background-color: #206369;
+	padding: 4px;
+	font-size: 19px;
+	position: sticky;
+	top: 0;
+	color: white;
+}
+
+#Collage_allocated #option_select{
+	font-size: 20px;
+	padding: 2px;
+	border-radius: 3px;
+	background-color: #FCE181;
+}
+
+#Collage_allocated #options{
+	font-family: times;
+	font-size: 18px;
+    padding: 2vh 1vh 0vh 2vh;
+}
+
+#Collage_allocated #options input[type=submit]{
+	margin:1vh 0vh 0vh 0vh;
+	padding: 5px 12px 5px 12px;
+	font-size: 18px;
+	background-color: #6cb1b8;
+	border-radius: 4px;
+	font-family: times;
+	cursor: pointer;
+}
+
+#Collage_allocated #options h1{
+	margin:5vh 0vh 0vh 0vh;
+	font-size: 18px;
+	font-family: times;
+}
+
+
+
+/*-----------------------allocated collages--------------------------*/
+
+#allocated_collage{
+	margin: 5vh 3vw 0vh 140vh;
+	overflow: scroll; 
+	height: 200px; 	
+	overflow-x: hidden;
+	background-color: #EDEAE5;
+	padding: 0vh 0vh 0vh 0vh;
+	border-radius: 5px;
+}
+
+#allocated_collage::-webkit-scrollbar{
+	width: 0;
+	background-color: transparent;
+}
+
+#allocated_collage #heading{
+	background-color: #206369;
+	padding: 4px;
+	font-size: 19px;
+	position: sticky;
+	top: 0;
+	color: white;
+}
+
+#allocated_collage #option_select{
+	font-size: 20px;
+	padding: 2px;
+	border-radius: 3px;
+	background-color: #FCE181;
+}
+
+#allocated_collage #options{
+	font-family: times;
+	font-size: 18px;
+    padding: 2vh 1vh 0vh 2vh;
+}
+
+#allocated_collage #options input[type=radio]
+{
+	margin-left: 10vh;
+	margin-right: 1vh;
+}
+
+#allocated_collage #options input[type=submit]{
+	margin:5vh 0vh 0vh 0vh;
+	padding: 5px 12px 5px 12px;
+	font-size: 18px;
+	background-color: #6cb1b8;
+	border-radius: 4px;
+	font-family: times;
+	cursor: pointer;
+}
+
+#allocated_collage #options h1{
+	margin:5vh 0vh 0vh 0vh;
+	font-size: 18px;
+	font-family: times;
+}
+
+#allocated_collage #options p{
+	margin:2vh 0vh 0vh 0vh;
+	padding: 5px 5px 0px 12px;
+	font-size: 18px;
+	color: red;
+	border-radius: 4px;
+	font-family: times;
+}

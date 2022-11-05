@@ -1,0 +1,227 @@
+#content_right #ead_admissions button{
+	margin: -40vh 0vh 0vh 130vh;
+	font-size: 22px;
+	padding: 10px 20px 10px 20px;
+	background: #05149c;
+	color: white;
+	cursor: pointer;
+	font-family: serif;
+}
+
+#content_right #ead_admissions .fas{
+	margin-right: 10px;
+	padding: 3px;
+	color: black;
+	background-color: white;
+	border-radius: 50%;
+}
+
+
+#content_right #admissions_type #UG_CET {
+	margin: 0vh 0vh 0vh 10vh;
+}
+
+#content_right #admissions_type #UG_CET span{
+	margin: 12vh 132vh 2vh 12vh;
+	font-family: cursive;
+	font-size: 22px;
+	background-color: red;
+	padding: 4px 4px 4px 12px;
+}
+
+#content_right #admissions_type  #descrip_open{
+	margin: 1vh 122vh 2vh 10vh;
+	font-family: cursive;
+	font-size: 22px;
+	background-color: #06c909;
+	padding: 4px 4px 4px 12px;
+	border-radius: 12px;	
+}
+
+#content_right #admissions_type  #descrip_closed{
+	margin: 1vh 122vh 2vh 10vh;
+	font-family: cursive;
+	font-size: 22px;
+	background-color: #a31731;
+	padding: 4px 4px 4px 12px;
+	border-radius: 12px;	
+}
+
+
+#content_right #admissions_type #course{
+	margin: 1vh 122vh 2vh 10vh;
+	font-family: cursive;
+	font-size: 22px;
+	background-color: #2f5f8f;
+	padding: 4px 4px 4px 12px;
+	border-radius: 12px;	
+	color: white;
+}
+
+
+#content_right #admissions_type #update{
+	margin: 1vh 122vh 2vh 10vh;
+	font-family: cursive;
+	font-size: 22px;
+	background-color: #f50a0e;
+	padding: 4px 4px 4px 12px;
+	border-radius: 12px;	
+	
+}
+
+#content_right #admissions_type #update button{
+	color: white;
+	font-size: 22px;
+	font-family: cursive;
+	background: none;
+	border: none;
+	text-decoration: none;
+	cursor:pointer;
+}
+
+/*------------admission 2-----------------*/
+
+
+#content_right #admissions_type2 #UG_CET2 {
+	margin: -53vh 0vh 0vh 70vh;
+}
+
+#content_right #admissions_type2 #UG_CET2 img{
+	margin: 0vh 0vh 0vh 0vh;
+	border-radius: 50%;
+	width:17%;
+	background-color: #1f2833;
+	padding: 52px;
+}
+
+
+#content_right #admissions_type2 #UG_CET2 span{
+	margin: 12vh 132vh 2vh 12vh;
+	font-family: cursive;
+	font-size: 22px;
+	background-color: red;
+	padding: 4px 4px 4px 12px;
+}
+
+#content_right #admissions_type2  #descrip_open{
+	margin: 1vh 63vh 2vh 70vh;
+	font-family: cursive;
+	font-size: 22px;
+	background-color: #06c909;
+	padding: 4px 4px 4px 12px;
+	border-radius: 12px;	
+}
+
+#content_right #admissions_type2  #descrip_closed{
+	margin: 1vh 63vh 2vh 70vh;
+	font-family: cursive;
+	font-size: 22px;
+	background-color: #a31731;
+	padding: 4px 4px 4px 12px;
+	border-radius: 12px;	
+}
+
+#content_right #admissions_type2 #course{
+	margin: 1vh 63vh 2vh 70vh;
+	font-family: cursive;
+	font-size: 22px;
+	background-color: #2f5f8f;
+	padding: 4px 4px 4px 12px;
+	border-radius: 12px;	
+	color: white;
+}
+
+
+#content_right #admissions_type2 #update{
+	margin: 1vh 63vh 10vh 70vh;
+	font-family: cursive;
+	font-size: 22px;
+	background-color: #f50a0e;
+	padding: 4px 4px 4px 12px;
+	border-radius: 12px;	
+	
+}
+
+#content_right #admissions_type2 #update button{
+	color: white;
+	font-size: 22px;
+	font-family: cursive;
+	background: none;
+	border: none;
+	text-decoration: none;
+	cursor:pointer;
+}
+
+
+/*------------admission 3-----------------*/
+
+
+#content_right #admissions_type3 #UG_CET3 {
+	margin: -61vh 0vh 0vh 128vh;
+}
+
+#content_right #admissions_type3 #UG_CET3 img{
+	margin: 0vh 0vh 0vh 0vh;
+	border-radius: 50%;
+	width:42%;
+	background-color: #1f2833;
+	padding: 52px;
+}
+
+
+#content_right #admissions_type3 #UG_CET3 span{
+	margin: 12vh 132vh 2vh 12vh;
+	font-family: cursive;
+	font-size: 22px;
+	background-color: red;
+	padding: 4px 4px 4px 12px;
+}
+
+#content_right #admissions_type3  #descrip_open{
+	margin: 1vh 6vh 2vh 128vh;
+	font-family: cursive;
+	font-size: 22px;
+	background-color: #06c909;
+	padding: 4px 4px 4px 12px;
+	border-radius: 12px;	
+}
+
+#content_right #admissions_type3  #descrip_closed{
+	margin: 1vh 6vh 2vh 128vh;
+	font-family: cursive;
+	font-size: 22px;
+	background-color: #a31731;
+	padding: 4px 4px 4px 12px;
+	border-radius: 12px;	
+}
+
+#content_right #admissions_type3 #course{
+	margin: 1vh 6vh 2vh 128vh;
+	font-family: cursive;
+	font-size: 22px;
+	background-color: #2f5f8f;
+	padding: 4px 4px 4px 12px;
+	border-radius: 12px;	
+	color: white;
+}
+
+
+#content_right #admissions_type3 #update{
+	margin: 1vh 6vh 2vh 128vh;
+	font-family: cursive;
+	font-size: 22px;
+	background-color: #f50a0e;
+	padding: 4px 4px 4px 12px;
+	border-radius: 12px;	
+	
+}
+
+#content_right #admissions_type3 #update button{
+	color: white;
+	font-size: 22px;
+	font-family: cursive;
+	background: none;
+	border: none;
+	text-decoration: none;
+	cursor:pointer;
+}

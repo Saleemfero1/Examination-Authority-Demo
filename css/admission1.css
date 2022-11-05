@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+#left_side_image img{
+	
+	margin: 0vh 0vh 0vh 0vh;
+}
+
+#right_side_image img{
+	position:absolute;
+	margin: -12vh 0vh 0vh 170vh;
+	padding: 0;
+}
+
+#navigation_bar{
+	position: absolute;
+	margin: 1vh;
+	margin-left: 20% ;
+	padding: 1vw;
+	word-spacing: 5px;
+	border-radius: 5px;
+
+}
+#navigation_bar a .fas
+	padding-left: 6px;
+}
+
+#navigation_bar a{
+	margin: 10px;
+	text-decoration: none;
+	color: blue;
+	padding: 20px;
+}
+#navigation_bar a:hover{
+	padding: 15px;
+	background-color: lightgreen;
+	border-radius: 4px;
+}
+
+#navigation_bar #active  {
+	padding: 14px;
+	background-color: lightgreen;
+	border-radius: 4px;
+}

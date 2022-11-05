@@ -1,0 +1,175 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.Examination_Authority{
+	background-color: limegreen;
+	margin: 1vh;
+	border-radius: 5px;
+}
+
+.Examination_Authority .img1{
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .img2{
+	position: absolute;
+	margin: -13vh 0vh 0vh 190vh;
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .text h1{
+	position: absolute;
+	margin: -10vh 0vh 0vh 80vh;
+}
+.Examination_Authority .text h2{
+	position: absolute;
+	margin: -5vh 0vh 0vh 100vh;
+}
+
+#navigation_bar{
+	border: 2px solid grey;
+	position: absolute;
+	margin: 1vh;
+	margin-left: 18.5% ;
+	padding: 1.5vw;
+	word-spacing: 5px;
+	border-radius: 5px;
+
+}
+#navigation_bar a .fas{
+	padding-left: 6px;
+}
+
+#navigation_bar a{
+	margin: 10px;
+	text-decoration: none;
+	color: blue;
+	padding: 20px;
+}
+#navigation_bar a:hover{
+	padding: 15px;
+	background-color: lightgreen;
+	border-radius: 4px;
+}
+
+#navigation_bar #active  {
+	padding: 15px;
+	background-color: lightgreen;
+	border-radius: 4px;
+}
+
+
+/*--------------------------------------contents--------------------------------------------*/
+
+#content #left_logo{
+	margin: 14vh 0vh 0vh 0vw;
+}
+
+#content #left_logo img{
+	width: 40%;
+	border-radius: 90% ;
+	border: 4px;
+}
+
+#right_content{
+	text-align: justify;
+	padding: 2px;
+	margin: -45vh 7vh 0vh 90vh;
+	
+	border-radius: 5px;
+}
+
+#right_content li{
+	margin-left: 18px;
+}
+
+#right_content h1{
+	margin:2vh 0vh 2vh 0vh;
+	background-color: lightgray;
+	border-radius: 4px;
+}
+
+#details_of_project{
+	padding: 6px;
+	border-radius: 5px;
+	margin:0vh 3vh 0vh 3vh;
+	border:3px solid black;
+}
+
+
+/*--------------------------------------admin login--------------------------------------------*/
+
+
+#login_portal{
+
+	margin: 5vh 0vh 0vh 65vh;
+	padding: 2vh 0vh 2vh 2vh;
+	position:absolute;
+}
+
+#login_portal h1{
+	font-size: 23px;
+	background-color: lightsalmon;
+	padding: 2vh 30vh 1.5vh 30vh;
+	border-radius: 5px;
+}
+
+#login_portal form{
+	background-color: whitesmoke;
+	border: 2px solid wheat;
+	margin: 3vh 8vh 0vh 10vh;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px grey;	
+	padding: 3vw 0vw 2vw 3vw;
+}
+
+#login_portal form span{
+	font-size: 18px;
+}
+
+#login_portal form input[type=text]{
+	padding: 4px 34px 4px 24px;
+	margin: 0px 0px 0px 25.5px;
+	border-radius: 4px;
+	background-color: ghostwhite;
+}
+
+#login_portal form input[type=password]{
+	padding: 4px 34px 4px 24px;
+	margin: 8px 0px 0px 26px;
+	border-radius: 4px;
+	background-color: ghostwhite;
+}
+
+#login_portal form input[type=submit]{
+	margin: 35px 10px 0px 12vh;
+	padding: 8px 18px 8px 18px;
+	background-color: lightskyblue;
+	border-radius: 20px 5px 20px 5px;
+}
+
+#login_portal form input[type=reset]{
+	margin: 35px 10px 0px 1vh;
+	padding: 8px 18px 8px 18px;
+	background-color: lightcoral;
+	border-radius: 20px 5px 20px 5px;
+}
+
+#page_footer{
+	position: absolute;
+	margin: 50vh 0vh 0vh 0vh;
+	background-color: palevioletred;
+	padding: 10px;
+}
+
+#page_footer h1{
+	text-align: center;
+	padding: 0vw 40vw 0vw 40vw;
+	font-size: 25px;
+}
+
+#page_footer p{
+	text-align: center;
+}

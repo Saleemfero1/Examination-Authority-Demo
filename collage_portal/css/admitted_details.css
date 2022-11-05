@@ -1,0 +1,179 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* ---------------------------------header-------------------------------------*/
+
+#header{
+	margin: 5px;
+	background-color: #D24710;
+	border-radius: 10px;
+}
+
+#header .img1{
+	margin: 2px;
+}
+
+#header .img1 img{
+	padding: 25px 0px 0px 10px;
+}
+
+#header .text{
+	margin: -10vh 0vh 0vh 69vh;
+}
+
+#header .text h2{
+	color: #FCAD72;
+	padding-left: 11vw;
+}
+
+#header .text h3{
+
+	padding-left: 3vw;
+	padding-bottom: 10px;
+	animation: effect 2s linear infinite;
+}
+
+/*-------------------------------------Navigation bar-------------------------------------*/
+
+#left_navigation_bar{
+	background-color: #5D5555;
+	margin: 3vh 83vw 0vh 1vh;
+	border-radius: 5px;
+}
+#left_navigation_bar p{
+	padding-top: 4vh;
+	padding-left: 4vw;
+	font-size: 20px;
+	color: #DCC9EB;
+}
+
+#left_navigation_bar #contents{
+	margin: 5vh 0vh 0vh 4vh;
+}
+
+#left_navigation_bar #contents a{
+	color: whitesmoke;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#left_navigation_bar #contents .active{
+	background-color: #9A9F9E;
+	padding: 1vh 9vh 1vh 3vh;
+	color: whitesmoke;
+	border-radius: 5px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#left_navigation_bar #contents a i{
+	padding-right: 7px;
+	padding-bottom: 25px;
+}
+
+#left_navigation_bar #Sign-Out{
+	margin: 35vh 0vh 0vh 7vh;
+}
+
+#left_navigation_bar #Sign-Out a{
+	text-decoration: none;
+	font-size: 23px;
+	color: #48F603;
+}
+
+#left_navigation_bar #Sign-Out .fas{
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+
+@keyframes effect{
+	0%{
+		color: #F7F40E;
+	}
+	30%{
+		color: #FCFAFA;
+	}
+	50%{
+		color: #F7F40E;
+	}
+	100%{
+		color: #FCFAFA;
+	}
+}
+
+#header .img2{
+	position: absolute;
+	margin: -13vh 0vh 0vh 92vw;
+}
+
+/*-------------------------------------courses offered-------------------------------------*/
+
+#display{
+	overflow: hidden;
+	margin: -80vh 3vh 0vh 18vw;
+	position: absolute;
+	padding: 0vh 0vh 5vh 0vh;
+}
+
+
+#seat_matrix_updates h1{
+	margin: 2vh 0vh 0vh 60vh;
+	font-family: times;
+}
+
+#updates_EAD{
+	margin: 8vh 0vh 0vh 20vh;
+	padding-bottom:2vh;
+	border-radius: 5px;
+}
+
+
+
+#updates_EAD form #seat_matrix{
+	display: none;
+}
+
+#updates_EAD h3{
+	margin: 5vh 0vh 3vh 6vh;
+	font-size: 24px;
+	color: #D24710;
+}
+
+
+#updates_EAD table{
+	column-gap: 50px;
+	margin: 1vh 0vh 0vh 0vh;
+	border:3px solid black;
+	padding: 14px;
+	border-radius: 5px;
+}
+
+#updates_EAD th{
+	padding: 8px 13px 8px 13px;
+	font-size: 22px;
+	background-color: #F8C3C3;
+	border-radius: 5px;
+}
+
+#updates_EAD  td{
+	font-size: 20px;
+	margin: 0vh 0vh 0vh 0vh;
+	padding: 6px 4px 6px 4px;
+	border:1px solid black;
+	border-radius: 4px;
+}
+
+#updates_EAD  td p{
+	color: red;
+	font-family: times;
+}
+
+#updates_EAD .fas{
+	font-size: 26px;
+	color: blue;
+}

@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.Examination_Authority{
+	background-color: #1f2833;
+	margin: 1vh;
+	border-radius: 5px;
+}
+
+.Examination_Authority .img1{
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .img2{
+	position: absolute;
+	margin: -13vh 0vh 0vh 190vh;
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .text h1{
+	color: white;
+	position: absolute;
+	margin: -10vh 0vh 0vh 80vh;
+}
+.Examination_Authority .text h2{
+	color: white;
+	position: absolute;
+	margin: -5vh 0vh 0vh 100vh;
+}
+
+/* ------------------------------------navigation bar------------------------------------ */
+
+#navigation_bar{
+	margin: 0vh 80vw 0vh 1vh;
+	padding: 0vh 0vh 0vh 0vh;
+	background-color: #FBF7F7;
+	border-radius: 12px;
+}
+
+#navigation_bar #heading{
+		border-radius: 12px;
+	font-size: 12px;
+	background-color: #0B0C10;
+	color: white;
+}
+
+#navigation_bar label h1{
+	padding: 2vh 2vh 2vh 9vh;
+}
+
+#navigation_bar #links{
+	border-radius: 12px;
+	margin: 2vh 0vh 0vh 0vh;
+	padding: 2vh 0vh 0vh 0vh;
+}
+
+#navigation_bar #links a{
+	margin: 2vh 0vh 2vh 0vh;
+	padding: 2vh 5vh 2vh 2vh;
+	font-size: 20px;
+	text-decoration: none;
+	color: #595050;
+
+
+}
+
+#navigation_bar #links #active{
+		background-color: #6a82de;
+	border-radius: 24px;
+}
+
+#navigation_bar #links #active:hover{
+	color:#595050;
+}
+
+
+#navigation_bar #links a:hover{
+	color: #6a82de;
+	border-radius: 24px
+}
+
+#navigation_bar #links .active{
+	color: #E15656;
+}
+
+#navigation_bar #links a i{
+	padding: 3vh 2vh 0vh 0vh;
+}
+
+
+#navigation_bar #sign-out{
+	border-radius: 12px;
+	margin: 40vh 0vh 0vh 0vh;
+	padding: 2vh 2vh 2vh 12vh;
+	background-color: #032e63;
+}
+
+
+#navigation_bar #sign-out a{
+	text-decoration: none;
+	font-size: 22px;
+	color: #66FCF1;
+}
+
+#navigation_bar #sign-out a i{
+	padding-right: 6px;
+}
+
+#navigation_bar #sign-out a:hover{
+	color: red;
+}
+
+/*----------------right side content----------------*/
+#content_right{
+	overflow: scroll; 
+	height: 400px; 	
+	overflow-x: hidden;
+	margin: -84vh 2vh 0vh 43vh;
+	padding: 0vh 0vh 30vh 0vh;
+	background-color: ;
+	
+}
+
+#content_right::-webkit-scrollbar{
+	width: 0;
+	background-color: transparent;
+}
+
+#content_right #head{
+	position: sticky;
+	top:0;
+	color: white;
+	background-color: #344280;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+#content_right #head label{
+	margin: 2vh 0vh 1vh 20vh;
+	font-size: 22px;
+}
+
+#content_right #head span{
+	font-size: 22px;
+	margin-left: 45vh;
+}
+
+#content_right #head span i{
+	margin-right: 2vh;
+}
+
+#content_right #note p{
+	margin: 1.5vh 0vh 0vh 8vh;
+	color: red;
+	font-family: cursive;
+}
+
+#content_right #live h1{
+	font-family: all;
+	margin-top: 2vh;
+}
+
+#content_right #live_admissions {
+	font-size: 14px;
+	margin: 2vh 0vh 0vh 2vh;
+	
+}
+
+#content_right #live_admissions td{
+	margin-left: 12px;
+}
+#content_right #live_admissions h1{
+	margin-left: 30px;
+	font-size: 22px;
+}

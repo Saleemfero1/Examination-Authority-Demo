@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.Examination_Authority{
+	background-color: limegreen;
+	margin: 1vh;
+	border-radius: 5px;
+}
+
+.Examination_Authority .img1{
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .img2{
+	position: absolute;
+	margin: -13vh 0vh 0vh 190vh;
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .text h1{
+	position: absolute;
+	margin: -10vh 0vh 0vh 70vh;
+}
+.Examination_Authority .text h2{
+	position: absolute;
+	margin: -5vh 0vh 0vh 95vh;
+	font-family: cursive;
+}
+
+
+#heading h1{
+	margin: 0vh 0vh 0vh;
+	color: #c57e32;
+}
+
+/*----------history button------------*/
+#back{
+	margin: -4vh 0vh 0vh 190vh;
+}
+#back input{
+	padding: 8px;
+	border-radius: 4px;
+	background-color: lightblue;
+	padding-left: 20px; 	
+	padding-right: 20px;
+	font-size: 18px;
+	font-family: serif;
+	color: #f06a11;
+	cursor: pointer;
+}
+
+/*-------------collage details-----------------*/
+
+#application{
+	margin: 7vh 0vh 0vh 15vh;
+}
+
+#application #label{
+	font-family: serif;
+	font-size: 23px;
+}
+
+#application #span{
+	font-family: cursive;
+	font-size: 20px;
+	padding-left: 14px;
+	padding: 6px;
+	border-radius: 4px;
+	background-color: #bfc0d2;
+}
+
+#application table{
+	margin:15vh 0vh 0vh 40vh;
+}
+

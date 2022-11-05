@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:lightgoldenrodyellow;
+
+}
+
+/*-----------------------header--------------------------*/
+.Examination_Authority{
+	background-color: lightsalmon;
+	margin: 1vh;
+	border-radius: 5px;
+}
+
+.Examination_Authority .img1{
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .img2{
+	position: absolute;
+	margin: -13vh 0vh 0vh 190vh;
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .text h1{
+	position: absolute;
+	margin: -10vh 0vh 0vh 70vh;
+}
+.Examination_Authority .text h2{
+	position: absolute;
+	margin: -5vh 0vh 0vh 96vh;
+	animation: effect 2s linear infinite;
+	text-shadow: 1px 1px red;
+}
+@keyframes effect{
+	0%{
+		color: #F7F40E;
+	}
+	30%{
+		color: #FCFAFA;
+	}
+	50%{
+		color: #F7F40E;
+	}
+	100%{
+		color: #FCFAFA;
+	}
+}
+
+
+/*------------------------login portal designs------------------------------*/
+#login_portal{
+
+	margin: 0vh 0vh 0vh 55vh;
+	padding: 2vh 0vh 2vh 2vh;
+	position:absolute;
+}
+
+#login_portal h1{
+	font-size: 23px;
+	background-color: ;
+	padding: 2vh 30vh 1.5vh 33vh;
+	border-radius: 5px;
+}
+
+#login_portal form{
+	background-color: whitesmoke;
+	border: 2px solid wheat;
+	margin: 3vh 8vh 0vh 10vh;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px grey;	
+	padding: 3vw 0vw 2vw 3vw;
+}
+
+#login_portal form span{
+	font-size: 18px;
+}
+
+#login_portal form input[type=text]{
+	width: 100%;
+	padding: 4px 20px 9px 34px;
+	margin: 2px 0px 6px 20px;
+	border-radius: 5px;
+	background-color: lightgrey;
+}
+
+#login_portal form input[type=tel]{
+	width: 100%;
+	padding: 4px 20px 9px 34px;
+	margin: 2px 0px 6px 20px;
+	border-radius: 5px;
+	background-color: lightgrey;
+}
+
+
+#login_portal form input[type=password]{
+	width: 100%;
+	padding: 4px 20px 9px 34px;
+	margin: 0px 0px 4px 20.5px;
+	border-radius: 5px;
+	background-color: lightgrey;
+}
+
+#captacha{
+	margin-top: 8.5px;
+	margin-left: 8px;
+}
+
+
+#captacha_value{
+	margin:3vh 0vh 0vh 25vh;
+	font-size: 23px;
+}
+
+#captacha_value label{
+	background-color: lightgrey;
+	border-radius: 4px;
+	padding: 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#captacha_value i{
+	margin-left: 14px;
+	background-color: none;
+	cursor: pointer;
+}
+
+#login_portal form input[type=submit]{
+	margin: 38px 10px 0px 20vh;
+	padding: 8px 18px 8px 18px;
+	background-color: lightskyblue;
+	border-radius: 20px 5px 20px 5px;
+}
+
+#login_portal form input[type=reset]{
+	margin: 38px 10px 0px 1vh;
+	padding: 8px 18px 8px 18px;
+	background-color: lightcoral;
+	border-radius: 20px 5px 20px 5px;
+}
+
+
+#login_portal form #create{
+	margin:4vh 0vh 0vh -3vh;
+}
+
+#login_portal #create a{
+	color: blue;
+	margin-left: 0px;
+	text-decoration: none;
+}
+
+/*history back button*/
+/*----------history button------------*/
+#back_button{
+	margin: 4vh 0vh 0vh 190vh;
+}
+#back_button input{
+	padding: 8px;
+	border-radius: 4px;
+	background-color: lightblue;
+	padding-left: 20px; 	
+	padding-right: 20px;
+	font-size: 18px;
+	font-family: serif;
+	color: #f06a11;
+	cursor: pointer;
+}
+
+
+/*----------applications closed------------*/
+
+#closed_applications h1{
+	margin:3vh 0vh 0vh -10vh;
+	color: red;
+}

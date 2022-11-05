@@ -1,0 +1,78 @@
+#content_right #ead_admissions button{
+	margin: -3vh 0vh 0vh 142vh;
+	font-size: 20px;
+	padding: 10px 20px 10px 8px;
+	background: #e3052d;
+	color: white;
+	border-radius: 12px;
+	cursor: pointer;
+	font-family: serif;
+}
+
+
+#content_right #ead_admissions .fad{
+	margin-right: 10px;
+	padding: 3px;
+	border-radius: 50%;
+}
+
+#content_right #new_year h1{
+	color:#6a82de;
+}
+
+#content_right #page_body form{
+	margin: 5vh 0vh 0vh 0vh;
+	font-family: times;
+	font-size: 22px;
+	padding: 5px;
+
+}
+
+#content_right #page_body td{
+	padding: 5px 15px 5px 15px;
+}
+
+#content_right #page_body #heading{
+	color: #0B0C10;
+}
+
+#content_right #page_body td select{
+	width: 130%;
+	padding: 5px;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+#content_right #page_body td select::-webkit-scrollbar{
+	border-radius: 15px;
+	background-color: transparent;
+}
+
+#content_right #page_body #check{
+	margin: 5vh 0vh 0vh 0vh;
+	font-family: cursive;
+	font-size: 16px;
+	color: red;
+}
+
+#content_right #page_body input.check{
+	margin: 0vh 1vh 0vh 0vh;
+	width: 20px;
+	height: 20px;
+	color: red;
+}
+
+#content_right #page_body input[type="checkbox"]{
+	background-color: red;
+}
+
+#content_right #page_body input[type="submit"]
+{
+	margin: 5vh 0vh 0vh 0vh;
+	padding: 5px 15px 5px 15px;
+	border-radius: 5px;
+	font-family: times;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: lightgreen;
+}

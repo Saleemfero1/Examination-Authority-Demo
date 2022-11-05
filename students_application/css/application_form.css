@@ -1,0 +1,220 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:lightgoldenrodyellow;
+
+}
+
+/*-----------------------header--------------------------*/
+.Examination_Authority{
+	background-color: lightsalmon;
+	margin: 1vh;
+	border-radius: 5px;
+}
+
+.Examination_Authority .img1{
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .img2{
+	position: absolute;
+	margin: -13vh 0vh 0vh 190vh;
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .text h1{
+	position: absolute;
+	margin: -10vh 0vh 0vh 70vh;
+}
+.Examination_Authority .text h2{
+	position: absolute;
+	margin: -5vh 0vh 0vh 96vh;
+	animation: effect 2s linear infinite;
+	text-shadow: 1px 1px red;
+}
+@keyframes effect{
+	0%{
+		color: #F7F40E;
+	}
+	30%{
+		color: #FCFAFA;
+	}
+	50%{
+		color: #F7F40E;
+	}
+	100%{
+		color: #FCFAFA;
+	}
+}
+
+#application_id{
+	margin: -3vh 0vh 0vh 160vh;
+}
+
+#application_id h1{
+	font-size: 22px;
+	color: red;
+}
+
+
+/*------------------selection_tab-----------------*/
+#selection_tab{
+	margin: 2vh 0vh 0vh 2vh;
+}
+
+#selection_tab a{
+	text-decoration: none;
+	background-color: grey;
+	color: white;
+	padding: 4px;
+	font-size: 12px;
+	font-family: cursive;
+	border-radius: 4px;
+}
+
+#selection_tab button{
+	text-decoration: none;
+	background-color: grey;
+	color: white;
+	padding: 4px 8px 4px 8px;
+	border:none;
+	font-size: 12px;
+	font-family: cursive;
+	border-radius: 4px;
+	cursor: pointer;
+	}
+
+#basic_details_form h1{
+	margin: 2vh 0vh 0vh 0vh;
+	font-size: 24px;
+	font-family: sans-serif;
+	word-spacing: 4px;
+	color: #f76868;
+}
+
+
+
+
+/*------------------application form-----------------*/
+
+#application_form{
+	margin: 5vh 30vh 5vh 30vh;
+	padding: 20px 10px 20px 10px;
+	background-color: #ede2c5;
+	border-radius: 5px;
+
+}
+
+#application_form label{
+	margin: 2vh 3vh 0vh 10vh;
+	font-size: 22px;
+}
+
+#application_form input[type=text]{
+	margin: 1vh 3vh 0vh 10vh; 
+	width: 100%;
+	padding-left: 12px;
+	font-size: 18px;
+	font-family: cursive;
+	border-radius: 4px;
+	border-color: white;
+}
+#application_form input[type=date]{
+	margin: 1vh 3vh 0vh 10vh; 
+	width: 100%;
+	padding-left: 12px;
+	font-size: 18px;
+	font-family: cursive;
+	border-radius: 4px;
+	border-color: white;
+}
+
+#application_form input[type=tel]{
+	margin: 1vh 3vh 0vh 10vh; 
+	width: 100%;
+	padding-left: 12px;
+	font-size: 18px;
+	font-family: cursive;
+	border-radius: 4px;
+	border-color: white;
+}
+
+#application_form input[type=email]{
+	margin: 1vh 3vh 0vh 10vh; 
+	width: 100%;
+	padding-left: 12px;
+	font-size: 18px;
+	font-family: cursive;
+	border-radius: 4px;
+	border-color: white;
+}
+
+#application_form select{
+	margin: 1vh 3vh 0vh 10vh; 
+	width: 103%;
+	padding-left: 12px;
+	font-size: 18px;
+	font-family: cursive;
+	border-radius: 4px;
+	border-color: white;
+}
+
+#application_form input[type=radio]{
+	font-size: 22px;
+	margin: 4vh 0vh 0vh 10vh; 
+	padding-left: 0px;
+	border-radius: 4px;
+	border-color: white;
+	padding: -10vh 0vh 0vh 0vh;
+		height: 1em;
+	width: 1em;
+}
+
+#application_form input[type=number]{
+	margin: 1vh 3vh 0vh 10vh; 
+	width: 100%;
+	padding-left: 12px;
+	font-size: 18px;
+	font-family: cursive;
+	border-radius: 4px;
+	border-color: white;
+}
+
+#application_form td{
+	font-size: 20px;
+}
+#application_form td span{
+	margin: 0vh 0vh 0vh 1vh;
+}
+
+
+/*----------------final submit -----------*/
+p{
+	margin: 7vh 0vh 0vh 9vh;
+	color: red;
+	font-family: cursive;
+	font-size: 18px;
+}
+
+#save{
+	margin: 10vh 0vh 6vh 0vh;
+	background-color: none;
+}
+
+#save input{
+	padding: 12px 18px 12px 18px;
+	background-color: lightblue;
+	font-size: 20px;
+	font-family: sans-serif;
+	border-radius: 6px;
+}
+
+/*#save button{
+	padding: 12px 20px 12px 20px;
+	background-color: light;
+	font-size: 20px;
+	font-family: sans-serif;
+	border-radius: 6px;
+}*/

@@ -1,0 +1,206 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:white;
+
+}
+
+/*-----------------------header--------------------------*/
+.Examination_Authority{
+	background-color: lightsalmon;
+	margin: 1vh;
+	border-radius: 5px;
+}
+
+.Examination_Authority .img1{
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .img2{
+	position: absolute;
+	margin: -13vh 0vh 0vh 190vh;
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .text h1{
+	position: absolute;
+	margin: -10vh 0vh 0vh 70vh;
+}
+.Examination_Authority .text h2{
+	position: absolute;
+	margin: -5vh 0vh 0vh 96vh;
+	animation: effect 2s linear infinite;
+	text-shadow: 1px 1px red;
+}
+@keyframes effect{
+	0%{
+		color: #F7F40E;
+	}
+	30%{
+		color: #FCFAFA;
+	}
+	50%{
+		color: #F7F40E;
+	}
+	100%{
+		color: #FCFAFA;
+	}
+}
+
+#application_id{
+	margin: -3vh 0vh 0vh 160vh;
+}
+
+#application_id h1{
+	font-size: 22px;
+	color: red;
+}
+
+
+/*------------------selection_tab-----------------*/
+#selection_tab{
+	margin: 2vh 0vh 0vh 2vh;
+}
+
+#selection_tab a{
+	text-decoration: none;
+	background-color: grey;
+	color: white;
+	padding: 4px;
+	font-size: 12px;
+	font-family: cursive;
+	border-radius: 4px;
+}
+
+#selection_tab button{
+	text-decoration: none;
+	background-color: grey;
+	color: white;
+	padding: 4px 8px 4px 8px;
+	border:none;
+	font-size: 12px;
+	font-family: cursive;
+	border-radius: 4px;
+	cursor: pointer;
+	}
+
+#basic_details_form h1{
+	margin: 2vh 0vh 0vh 0vh;
+	font-size: 24px;
+	font-family: sans-serif;
+	word-spacing: 4px;
+	color: #f76868;
+}
+
+
+
+
+/*------------------application form-----------------*/
+
+#application_form{
+	margin: 3vh 60vh 3vh 60vh;
+	padding: 20px 10px 20px 10px;
+	border: 4px solid lightgrey;
+	box-shadow: 3px 3px 3px 3px lightgrey ;
+	background-color: #e0dede;
+}
+#application_form h1{
+	font-size: 24px;
+	font-family: serif;
+}
+#application_form h4{
+	margin: 1vh 0vh 0vh 0vh;
+	font-family: arial;
+}
+
+#application_form h4 span{
+	font-size: 22px;
+	color: blue;
+}
+
+
+#application_form table{
+	margin: 3vh 0vh 0vh 0vh;
+
+}
+
+
+#application_form  label{
+	font-size: 20px;
+	margin-left: 22px;
+}
+
+#application_form table img{
+	width: 35%;
+	margin: 0vh 0vh 0vh 0vh;
+}
+
+#application_form table  #rupay{
+	width: 20%;
+	margin-left: 29vh;
+}
+
+#application_form input{
+	margin: 1vh 3vh 0vh 10vh; 
+	width: 120%;
+	padding: 8px;
+	font-size: 18px;
+	border-radius: 4px;
+	border-color: white;
+	font-family: all;
+}
+#application_form span{
+	margin: 1vh 3vh 0vh 8vh; 
+	width: 55%;
+	padding: 8px;
+	font-size: 18px;
+	border-radius: 4px;
+	border-color: white;
+	font-family: all;
+}
+
+#application_form input[type=month]{
+	margin: 1vh 3vh 0vh 10vh; 
+	width: 60%;
+	padding: 8px;
+	font-size: 18px;
+	border-radius: 4px;
+	border-color: white;
+	font-family: all;
+}
+
+
+#application_form #security_code{
+	margin: 1vh 3vh 0vh -3vh; 
+	width: 65%;
+	padding: 9px;
+	font-size: 18px;
+	border-radius: 4px;
+	border-color: white;
+	font-family: all;
+}
+
+
+#application_form input[type=submit]
+{
+	margin:3vh 0vh 0vh 0vh;
+	width: 100%;
+	background-color: #1ee642;
+}
+
+#application_form i{
+	margin: 10vh 0vh 0vh 10vh;
+}
+
+#application_form img{
+	width: 10%;
+	margin:2vh 0vh 0vh 0vh;
+}
+
+#application_form p{
+	margin: 5vh 0vh 0vh 0vh;
+	font-size: 12px;
+	color: red;
+}

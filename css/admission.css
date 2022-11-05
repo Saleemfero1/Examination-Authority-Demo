@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.Examination_Authority{
+	background-color: limegreen;
+	margin: 1vh;
+	border-radius: 5px;
+}
+
+.Examination_Authority .img1{
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .img2{
+	position: absolute;
+	margin: -13vh 0vh 0vh 190vh;
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .text h1{
+	position: absolute;
+	margin: -10vh 0vh 0vh 80vh;
+}
+.Examination_Authority .text h2{
+	position: absolute;
+	margin: -5vh 0vh 0vh 100vh;
+}
+
+#navigation_bar{
+	border: 2px solid grey;
+	position: absolute;
+	margin: 1vh;
+	margin-left: 18.5% ;
+	padding: 1.5vw;
+	word-spacing: 5px;
+	border-radius: 5px;
+
+}
+#navigation_bar a .fas{
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+#navigation_bar a{
+	margin: 10px;
+	text-decoration: none;
+	color: blue;
+	padding: 20px;
+}
+#navigation_bar a:hover{
+	padding: 15px;
+	background-color: lightgreen;
+	border-radius: 4px;
+}
+
+#navigation_bar #active  {
+	padding: 15px;
+	background-color: lightgreen;
+	border-radius: 4px;
+}
+
+#current_year_admission{
+	margin: 12vh 2vh 2vh 2vh;
+	padding: 2vh 2vh 2vh 2vh;
+	background-color: lightgoldenrodyellow;
+	border-radius: 5px;
+}
+
+#current_year_admission h1{
+	font-size: 23px;
+	padding: 0vh 0vh 0vh 80vh;
+}
+
+#current_year_admission a{
+	text-decoration: none;
+}
+
+#content p{
+cursor: pointer;
+border: 2px solid grey;
+background-color: lightgray;
+font-size: 20px;
+padding: 2vh 2vh 2vh 50vh;
+margin: 0vh 40vh 1vh 45vh;
+border-radius: 10px;
+color: blue;
+}
+
+#content{
+	cursor: pointer;
+}
+#content p: hover{
+cursor: pointer;
+}
+
+#prevoius_year_admission{
+	margin: 2vh 2vh 2vh 2vh;
+	padding: 2vh 2vh 2vh 2vh;
+	background-color: lightgoldenrodyellow;
+	border-radius: 5px;
+}
+
+#prevoius_year_admission h1{
+	font-size: 23px;
+	padding: 0vh 0vh 0vh 80vh;
+}
+
+#page_footer{
+	position: absolute;
+	margin: 3vh 0vh 0vh 0vh;
+	background-color: palevioletred;
+	padding: 10px;
+}
+
+#page_footer h1{
+	text-align: center;
+	padding: 0vw 40vw 0vw 40vw;
+	font-size: 25px;
+}
+
+#page_footer p{
+	text-align: center;
+}

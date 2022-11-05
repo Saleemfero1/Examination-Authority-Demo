@@ -1,0 +1,122 @@
+/* ------------------------------------dont touch its used as css for all admin------------------------------------ */
+/* ------------------------------------dont touch its used as css for all admin portal pages---------------------- */
+/* ------------------------------------dont touch its used as css for all admin portal pages------------------ */
+/* ------------------------------------dont touch its used as css for all admin portal pages------------------------ */
+/* ------------------------------------dont touch its used as css for all admin portal pages--------------------- */
+/* ------------------------------------dont touch its used as css for all admin portal pages------------------- */
+/* ------------------------------------dont touch its used as css for all admin portal pages-------------------- */
+/* ------------------------------------dont touch its used as css for all admin portal pages-------------------- */
+/* ------------------------------------dont touch its used as css for all admin portal pages-------------------- */
+/* ------------------------------------dont touch its used as css for all admin portal pages---------------------- */
+/* ------------------------------------dont touch its used as css for all admin portal pages------------------------ */
+/* ------------------------------------dont touch its used as css for all admin portal pages---------------------- */
+/* ------------------------------------dont touch its used as css for all admin portal pages--------------------- */
+/* ------------------------------------dont touch its used as css for all admin portal pages------------------------ */
+/* ------------------------------------dont touch its used as css for all admin portal pages----------------------- */
+/* ------------------------------------dont touch its used as css for all admin portal pages---------------------- */
+/* ------------------------------------dont touch its used as css for all admin portal pages------------------ */
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: whitesmoke;
+}
+
+/* ------------------------------------header------------------------------------ */
+
+header{
+	display: block;
+	margin: 0vh 0vh 0vh 0vh;
+	padding: 3vh 2vh 3vh 43vw;
+	background-color: #6BA79E;
+}
+
+header h1{
+	color: white;
+	font-size: 24px;
+
+}
+
+/* ------------------------------------navigation bar------------------------------------ */
+
+#navigation_bar{
+	margin: 0vh 80vw 0vh 0vh;
+	padding: 0vh 0vh 0vh 0vh;
+	background-color: #FBF7F7;
+}
+
+#navigation_bar #heading{
+	font-size: 12px;
+	background-color: black;
+	color: white;
+}
+
+#navigation_bar label h1{
+	padding: 2vh 2vh 2vh 9vh;
+}
+
+#navigation_bar #links{
+	margin: 2vh 0vh 0vh 0vh;
+	padding: 2vh 0vh 0vh 0vh;
+}
+
+#navigation_bar #links a{
+	margin: 2vh 0vh 0vh 0vh;
+	padding: 0vh 0vh 0vh 3vh;
+	font-size: 20px;
+	text-decoration: none;
+	color: #8F8A8A;
+}
+
+#navigation_bar #links a:hover{
+	color: #E15656;
+}
+
+#navigation_bar #links .active{
+	color: #E15656;
+}
+
+#navigation_bar #links a i{
+	padding: 3vh 2vh 0vh 0vh;
+}
+
+#navigation_bar #sign-out{
+	margin: 46vh 0vh 0vh 0vh;
+	padding: 2vh 2vh 2vh 12vh;
+	background-color: #BABABA;
+}
+
+
+#navigation_bar #sign-out a{
+	text-decoration: none;
+	font-size: 22px;
+	color: #B26CF9;
+}
+
+#navigation_bar #sign-out a i{
+	padding-right: 6px;
+}
+
+#navigation_bar #sign-out a:hover{
+	color: red;
+}
+
+/* ------------------------------------frame set only for right------------------------------------ */
+
+#frame_right{
+	overflow: scroll; 
+	height: 400px; 	
+	overflow-x: hidden;
+	margin: -90vh 0vh 0vh 42vh;
+	padding: 0vh 0vh 34.4vh 0vh;
+	background-color: #F6EFEF;
+}
+
+#frame_right::-webkit-scrollbar{
+	width: 0;
+	background-color: transparent;
+}

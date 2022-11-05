@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:white;
+
+}
+
+/*-----------------------header--------------------------*/
+.Examination_Authority{
+	background-color: lightsalmon;
+	margin: 1vh;
+	border-radius: 5px;
+}
+
+.Examination_Authority .img1{
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .img2{
+	position: absolute;
+	margin: -13vh 0vh 0vh 190vh;
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .text h1{
+	position: absolute;
+	margin: -10vh 0vh 0vh 70vh;
+}
+.Examination_Authority .text h2{
+	position: absolute;
+	margin: -5vh 0vh 0vh 96vh;
+	animation: effect 2s linear infinite;
+	text-shadow: 1px 1px red;
+}
+@keyframes effect{
+	0%{
+		color: #F7F40E;
+	}
+	30%{
+		color: #FCFAFA;
+	}
+	50%{
+		color: #F7F40E;
+	}
+	100%{
+		color: #FCFAFA;
+	}
+}
+
+#application_id{
+	margin: -3vh 0vh 0vh 160vh;
+}
+
+#application_id h1{
+	font-size: 22px;
+	color: red;
+}
+
+
+/*------------------selection_tab-----------------*/
+#selection_tab{
+	margin: 2vh 0vh 0vh 2vh;
+}
+
+#selection_tab a{
+	text-decoration: none;
+	background-color: grey;
+	color: white;
+	padding: 4px;
+	font-size: 12px;
+	font-family: cursive;
+	border-radius: 4px;
+}
+
+#selection_tab button{
+	text-decoration: none;
+	background-color: grey;
+	color: white;
+	padding: 4px 8px 4px 8px;
+	border:none;
+	font-size: 12px;
+	font-family: cursive;
+	border-radius: 4px;
+	cursor: pointer;
+	}
+
+#basic_details_form h1{
+	margin: 2vh 0vh 0vh 0vh;
+	font-size: 24px;
+	font-family: sans-serif;
+	word-spacing: 4px;
+	color: #f76868;
+}
+
+/*------------------application form-----------------*/
+
+#application_form{
+	margin: 5vh 30vh 5vh 30vh;
+	padding: 20px 10px 20px 10px;
+	background-color: #ede2c5;
+	border-radius: 5px;
+}
+
+#application_form span{
+	font-family: all;
+	font-size: 22px;
+	padding: 2px;
+	margin: 0vh 0vh 0vh 10vh;
+}
+
+#application_form label{
+	font-size: 22px;
+	margin: 0vh 0vh 0vh 10vh;
+	padding: 2px;
+	font-family: all;
+}
+
+#application_form  img{
+	width: 20%;
+}
+
+#application_form table{
+	margin: 0vh 0vh 0vh 0vh;
+	padding: 0vh 0vh 0vh 0vh;
+}
+
+#application_form button{
+	margin:10vh 0vh 0vh 0vh;
+	width: 8%;
+	padding: 12px;
+	font-size: 18px;
+	font-family: cursive;
+}

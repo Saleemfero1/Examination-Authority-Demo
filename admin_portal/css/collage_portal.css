@@ -1,0 +1,138 @@
+
+/*frame right activities*/
+
+/*frame span heaading*/
+#heading_collage h1{
+	color:#6579cf;
+	font-size: 34px;
+	font-family: cursive;
+	margin: 2vh 0vh 0vh 55vh;
+}
+/*add collage*/
+#new_collage{
+	margin: -7vh 4vh 0vh 138vh;
+	border-radius: 4px;
+	padding:1vw;
+	background-color: #445870;
+	color: white;
+	cursor: pointer;
+}
+
+#new_collage .fad{
+	padding-right: 6px;
+	color: white;
+	font-size:20px;
+}
+
+#new_collage a{
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+}
+
+#government_collage{
+	background-color: #212c5c;
+	margin: 3vh 8vh 0vh 8vh;
+	padding:4px 4px 4px 0px;
+	border-radius: 4px;
+}
+
+#government_collage h1{
+	color: white;
+	font-size: 30px;
+}
+
+/*#collage_details{
+	margin: 2vh 24vh 0vh 25vh;
+	border-radius: 5px;
+	font-family: serif;
+	font-size: 20px;
+	padding:5px;
+	background-color: #508c88;
+}
+
+#collage_details h3{
+	color: white;
+	padding:4px;
+}
+
+#collage_details h3 span{
+	padding-right: 6px;
+}*/
+
+
+#collage_details{
+	margin: 2vh 0vh 0vh 0vh;
+	border-radius: 5px;
+	font-family: serif;
+	font-size: 20px;
+	padding:5px;
+}
+
+#collage_details th{
+	padding: 4px 30px 4px 30px;
+	border: 2px solid black;
+	background-color: #508c88;
+}
+
+#collage_details tr{
+	border: 2px solid black;
+}
+
+#collage_details td{
+	border: 2px solid black;
+}
+
+
+
+
+#collage_details tr button{
+	padding: 5px 15px 5px 15px;
+	background-color: #0a8a1b;
+	color: white;
+	font-family: cursive;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#collage_details #course button{
+	padding: 5px 10px 5px 10px;
+	cursor: pointer;
+	background-color: #344280;
+	color: white;
+	font-family: cursive;
+	font-size: 16px;
+}
+
+
+#government_collage1{
+	background-color: #212c5c;
+	margin: 3vh 8vh 0vh 8vh;
+	padding:4px 4px 4px 0px;
+	border-radius: 4px;
+}
+
+#government_collage1 h1{
+	color: #fbfbfb;
+	font-size: 30px;
+}
+
+#collage_details1{
+	margin: 2vh 24vh 0vh 25vh;
+	border-radius: 5px;
+	font-family: serif;
+	font-size: 20px;
+	padding:5px;
+	background-color: #508c88;
+}
+
+#collage_details1 h3{
+	color: white;
+	padding:4px;
+}
+
+#collage_details1 h3 span{
+	padding-right: 6px;
+}
+
+

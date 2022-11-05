@@ -1,0 +1,105 @@
+#ead_admissions{
+	margin: 3vh 0vh 0vh 0vh;
+	font-family: serif;
+	color: #6a82de;
+}
+
+
+
+
+#content_right #admissions_type{
+	margin:9vh 0vh 0vh 2vh;
+}
+
+#content_right #admissions_type #UG_CET img{
+	margin: 0vh 9vh 0vh 0vh;
+	border-radius: 50%;
+	width: 10%;
+	background-color: #1f2833;
+}
+
+#content_right #admissions_type #UG_CET img{
+	padding: 52px;
+}
+
+#content_right #admissions_type #UG_CET #span span{
+	margin: -40vh 0vh 0vh 0vh;
+}
+
+#content_right #admissions_type #UGCET{
+	margin:-28vh 0vh 0vh 10vh;
+	background-color: #6a82de;
+	padding: 2vh 4vh 4vh 26vh;
+	border-radius: 20px 12px 12px 12px;
+}
+#content_right #admissions_type #UGCET label{
+	font-family: all;
+	font-size: 24px;
+	color: #66FCF1;
+}
+
+#content_right #admissions_type #UGCET p{
+	margin: 2vh;
+	font-family: cursive;
+	font-size: 18px;
+}
+
+
+
+#content_right #admissions_type #UGCET button{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	background-color: green;
+	padding: 6px;
+	font-family: cursive;
+	cursor: pointer;
+}
+
+
+#content_right #admissions_type1{
+	margin:3vh 0vh 0vh 92vh;
+	
+}
+
+#content_right #admissions_type1 #UG_CET1 img{
+	margin: 0vh 14vh 0vh 38vh;
+	border-radius: 50%;
+	width: 25%;
+	background-color: #1f2833;
+}
+
+#content_right #admissions_type1 #UG_CET1 img{
+	padding: 52px;
+}
+
+#content_right #admissions_type1 #UG_CET1 #span span{
+	margin: -41vh 0vh 0vh 0vh;
+}
+
+#content_right #admissions_type1 #UGCET1{
+	margin:-29vh 22vh 0vh -90vh;
+	background-color: #6a82de;
+	padding: 2vh 12vh 2vh 0vh;
+	border-radius: 20px 12px 12px 12px;
+}
+#content_right #admissions_type1 #UGCET1 label{
+	font-family: all;
+	font-size: 24px;
+	color: #66FCF1;
+}
+
+#content_right #admissions_type1 #UGCET1 p{
+	margin: 2vh;
+	font-family: cursive;
+	font-size: 18px;
+}
+#content_right #admissions_type1 #UGCET1 button{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	background-color: green;
+	padding: 6px;
+	font-family: cursive;
+	cursor: pointer;
+}

@@ -1,0 +1,83 @@
+
+/*----------history button------------*/
+
+#content_right #back button{
+	margin: -3vh 0vh 0vh 142vh;
+	font-size: 16px;
+	padding: 10px 20px 10px 8px;
+	background: #e3052d;
+	color: white;
+	border-radius: 12px;
+	cursor: pointer;
+	font-family: serif;
+}
+
+
+#content_right #back .fad{
+	margin-right: 10px;
+	padding: 3px;
+	border-radius: 50%;
+}
+
+#content_right #ug_courses h1{
+	background-color: #212c5c;
+	margin: 1vh 5vh 0vh 5vh;
+	border-radius: 5px;
+	color: white;
+}
+
+
+#content_right #create_ug_courses{
+	border:3px solid #9c7009;
+	padding: 5px 5px 5px 5px;
+	margin:-0.2vh 10vh 0vh 10.5vh;
+	border-radius: 4px;
+}
+
+#content_right #create_ug_courses button{
+	cursor: pointer;
+	padding: 4px;
+	border-radius: 6px;
+	background-color: #1cfc08;
+	font-size: 22px;
+	font-family: times;
+}
+
+#content_right #create_ug_courses i{
+	margin-right: 8px;
+}
+
+#content_right #courses_list{
+	margin: 3vh 0vh 0vh 0vh;
+}
+
+#content_right #courses_list th{
+	padding: 4px 30px 4px 30px;
+	border: 2px solid black;
+	background-color: #508c88;
+	font-size: 18px;
+}
+
+#content_right #courses_list td{
+	margin-left: 2px;
+	font-size: 18px;
+	padding: 4px;
+	border: 2px solid black;
+}
+
+#content_right #courses_list td input{
+	border: none;
+	padding: 5px;
+	font-size: 20px;
+}
+
+#content_right #courses_list input[type=submit]
+{
+	padding:10px 20px 10px 20px;
+	background-color: #1e81ba;
+	margin-bottom: 4vh;
+	font-size: 18px;
+	font-family: times;
+	border-radius: 4px;
+	cursor: pointer;
+}

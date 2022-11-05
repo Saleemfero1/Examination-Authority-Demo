@@ -1,0 +1,68 @@
+#ead_admissions{
+	margin: 3vh 0vh 0vh 0vh;
+	font-family: serif;
+	color: #6a82de;
+}
+
+
+#government_collage{
+	background-color: #1d2645;
+	margin: 3vh 8vh 0vh 8vh;
+	padding:4px 4px 4px 0px;
+	border-radius: 4px;
+}
+
+#government_collage h1{
+	color: white;
+	font-size: 30px;
+}
+
+#news_edit{
+	margin: 3vh 0vh 0vh 0vh;
+}
+
+#news_edit table{
+	margin: 0vh 15vh 0vh 15vh;
+}
+
+#news_edit th{
+	background-color: #508c88;
+	font-family: times;
+	font-size: 22px;
+	border: 1px solid black;
+	padding: 3px 15px 3px 15px;
+}
+
+#news_edit td{
+	border-radius: 4px;
+	border: 1px solid grey;
+	font-size: 22px;
+	font-family: times;
+	padding: 2px 10px 2px 10px;
+}
+
+#news_edit td button{
+	padding: 3px 15px;
+	font-size: 18px;
+	font-family: times;
+	background-color: #ff4b3d;
+	cursor: pointer;
+	color: white;
+}
+
+#news_edit td input[type="text"]{
+	width: 99%;
+	padding: 4px;
+	font-size: 22px;
+	border: none;
+	font-family: times;
+}
+
+#news_edit td input[type="submit"]{
+	padding: 3px 23px;
+	font-size: 18px;
+	font-family: times;
+	background-color: #6a82de;
+	cursor: pointer;
+	color: white;
+}

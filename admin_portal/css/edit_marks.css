@@ -1,0 +1,31 @@
+#content_right #calculate_marks{
+	margin: 4vh 0vh 0vh 0vh;
+}
+
+#content_right #calculate_marks th{
+	padding: 4px;
+	font-size: 18px;
+		border: 2px solid black;
+	background-color: #508c88;
+}
+#content_right #calculate_marks td{
+		border: 2px solid black;
+}
+
+#content_right #calculate_marks td input{
+	margin: 2vh 0vh 0vh 0vh;
+	border: none;
+	font-size: 16px;
+	padding: 2px 3px 2px 3px;
+}
+
+#content_right #calculate_marks td input[type=submit]
+{
+	background-color: #5b93f5;
+	font-size: 22px;
+	margin: 2vh 0vh 1vh 0vh;
+	padding: 4px;
+	border-radius: 5px;
+	font-family: times;
+	cursor: pointer;
+}

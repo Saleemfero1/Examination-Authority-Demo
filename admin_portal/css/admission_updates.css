@@ -1,0 +1,166 @@
+
+#content_right #head{
+	position: relative;
+}
+
+#content_right #ead_admissions{
+	margin:2vh 0vh 0vh 0vh;
+	top: 0;
+	position: static;
+}
+
+#content_right #ead_admissions h1{
+	margin:0vh 0vh 0vh 0vh;
+}
+#content_right #ead_admissions button{
+	margin: -9vh 0vh 0vh 142vh;
+	font-size: 18px;
+	padding: 10px 20px 10px 8px;
+	background: #e3052d;
+	color: white;
+	border-radius: 12px;
+	cursor: pointer;
+	font-family: serif;
+}
+
+
+#content_right #ead_admissions .fad{
+	margin-right: 10px;
+	padding: 3px;
+	border-radius: 50%;
+}
+/*---------------------Contents of admissions-----------------*/
+#content_right #container table{
+	margin: 1vh 0vh 0vh 0vh;
+}
+
+#content_right #container{
+/*	top: 0;
+	position: sticky;*/
+}
+
+#content_right #container table th{
+	padding: 5px 12px 5px 12px;
+	font-size: 20px;
+	border:2px solid black;
+	border-radius: 5px;
+	background-color: #043291;
+	color: white;
+	font-family: calibary;
+}
+
+
+#content_right #container table td{
+	padding: 3px 50px 3px 50px;
+	font-size: 22px;
+}
+
+#content_right #container table td input[type=number]{
+	margin-left: 10px;
+	width: 20%;
+	padding: 2px;
+	font-size: 22px;
+	background-color: #ccc;
+	border-radius: 5px;
+}
+
+/*---------------------switch button on/off-----------------*/
+#content_right #switch{
+	position: relative;
+	display: inline-block;
+	width: 70px;
+	height: 40px;
+	margin: 0 10px;
+}
+
+#content_right #slider{
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	transition: .4s;
+	border-radius: 34px;
+}
+
+#content_right #switch input{
+	display: none;
+}
+
+#content_right #slider:before{
+	position: absolute;
+	content: "";
+	height: 30px;
+	width: 30px;
+	left: 5px;
+	bottom: 5px;
+	background-color: white;
+	transition: 0.4s;
+	border-radius: 50px;
+}
+
+#content_right input:checked +#slider{
+	background-color: #6ff263;
+}
+
+#content_right input:checked + #slider:before{
+	transform: translateX(30px);
+}
+
+
+#content_right #seat_matrix input[type=submit]{
+	padding: 8px 15px 8px 15px;
+	cursor: pointer;
+	font-size: 20px;
+	background-color: #1f79f0;
+	border-radius: 5px 15px 5px 15px;
+	color: white;
+	margin: 0vh 0vh 5vh 7vh;
+}
+
+#content_right #seat_matrix  form i{
+	padding: 8px 15px 8px 15px;
+	cursor: pointer;
+	font-size: 15px;
+	background-color: #6ff263;
+	border-radius:10px;
+	color: #043291;
+}
+
+#content_right #seat_matrix  form button{
+	background-color: transparent;
+	border: none;
+	margin-left: 8px;
+	font-size: 18px;
+	font-family: times;
+	cursor: pointer;
+	color: #043291;
+}
+
+
+#content_right #seat_matrix button{
+	background-color: red;
+}
+#content_right #seat_matrix  i{
+	padding: 8px 15px 8px 15px;
+	cursor: pointer;
+	font-size: 15px;
+	background-color: #6ff263;
+	border-radius:10px;
+	color: #043291;
+}
+
+#content_right #seat_matrix  button{
+	background-color: transparent;
+	border: none;
+	margin-left: 8px;
+	font-size: 18px;
+	font-family: times;
+	cursor: pointer;
+	color: #043291;
+}
+
+
+

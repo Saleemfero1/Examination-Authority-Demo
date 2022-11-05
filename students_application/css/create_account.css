@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: whitesmoke;
+}
+
+/*-----------------------header--------------------------*/
+.Examination_Authority{
+	background-color: lightsalmon;
+	margin: 1vh;
+	border-radius: 5px;
+}
+
+.Examination_Authority .img1{
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .img2{
+	position: absolute;
+	margin: -13vh 0vh 0vh 190vh;
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .text h1{
+	position: absolute;
+	margin: -10vh 0vh 0vh 70vh;
+}
+.Examination_Authority .text h2{
+	position: absolute;
+	margin: -5vh 0vh 0vh 96vh;
+	animation: effect 2s linear infinite;
+	text-shadow: 1px 1px red;
+}
+@keyframes effect{
+	0%{
+		color: #F7F40E;
+	}
+	30%{
+		color: #FCFAFA;
+	}
+	50%{
+		color: #F7F40E;
+	}
+	100%{
+		color: #FCFAFA;
+	}
+}
+
+
+/*-----------------------heading Account creation--------------------------*/
+
+#account_creation_heading{
+	margin:2vh 0vh 0vh 80vh;
+}
+
+#account_creation_heading h1{
+	font-size:28px;
+}
+
+
+
+/*history back button*/
+/*----------history button------------*/
+#back_button{
+	margin: -5vh 0vh 0vh 185vh;
+}
+#back_button input{
+	padding: 8px;
+	border-radius: 4px;
+	background-color: #f2d5ef;
+	padding-left: 20px; 	
+	padding-right: 20px;
+	font-size: 18px;
+	font-family: serif;
+	color: #f06a11;
+	cursor: pointer;
+}
+
+
+/*----------account creation form ------------*/
+
+#create_account{
+	margin:10vh 0vh 0vh 60vh;
+}
+
+
+#create_account td{
+	padding: 10px;
+}
+
+#create_account span{
+	font-size: 22px;
+	margin-right:20px; 
+
+}
+
+#create_account td input{
+	width: 200%;
+	padding: 4px;
+	border-radius: 4px;
+}
+
+#create_account #captacha{
+	margin:2vh 0vh 0vh 46vh;
+		font-size: 27px;
+}
+
+#create_account #captacha label{
+	margin-right: 12px;
+	padding: 7px;
+	background-color: lightgrey;
+	border: 1px solid grey;
+	border-radius: 4px;
+}
+
+
+#create_account  input[type='checkbox']{
+	margin: 2vh 2vh 0vh 3vh;
+	height: 1.5em;
+	width: 1.5em;
+	color: red;
+	}
+
+#create_account  #checkbox{
+	font-size: 15px;
+	font-family: cursive;
+	color: red;
+}
+
+#create_account  input[type='submit']{
+	font-size: 22px;
+	font-family: serif;
+	margin: 4vh 0vh 0vh 40vh;
+	padding: 8px;
+	border-radius: 4px 4px;
+	background-color: #5875e8;
+}
+
+#create_account  input[type='reset']{
+	font-family: serif;
+	font-size: 22px;
+	margin: 4vh 0vh 0vh 3vh;
+	padding: 8px;
+	background-color: #ed2626;
+	border-radius: 4px;
+}

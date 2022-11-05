@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.Examination_Authority{
+	background-color: limegreen;
+	margin: 1vh;
+	border-radius: 5px;
+}
+
+.Examination_Authority .img1{
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .img2{
+	position: absolute;
+	margin: -13vh 0vh 0vh 190vh;
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .text h1{
+	position: absolute;
+	margin: -10vh 0vh 0vh 80vh;
+}
+.Examination_Authority .text h2{
+	position: absolute;
+	margin: -5vh 0vh 0vh 100vh;
+}
+
+#heading h1{
+	margin: 0vh 0vh 0vh 36%;
+	color: #c57e32;
+}
+
+/*----------history button------------*/
+#back{
+	margin: -4vh 0vh 0vh 190vh;
+}
+#back input{
+	padding: 8px;
+	border-radius: 4px;
+	background-color: lightblue;
+	padding-left: 20px; 	
+	padding-right: 20px;
+	font-size: 18px;
+	font-family: serif;
+	color: #f06a11;
+	cursor: pointer;
+}
+
+/*----------application form------------*/
+#application{
+	margin: 5vh 10vh 0vh 10vh;
+	border-radius: 4px;
+	padding:20px;
+}
+
+#application span{
+	margin: 0vh 0vh 0vh 10vh;
+	font-size: 23px;
+	color: grey;
+	padding: 0vw 0vw 0vw 0vw;
+}
+
+#application form  input[type=text]{
+	margin: 2vh 15vh 0vh 5vh;
+	padding: 1vw 5vw 1vw 5vw;
+	border: 1px solid #bfc0d2;
+	background-color: #bfc0d2;
+	border-radius: 4px;
+}
+
+#application form  input[type=tel]{
+	margin: 2vh 15vh 0vh 5vh;
+	padding: 1vw 5vw 1vw 5vw;
+	border: 1px solid #bfc0d2;
+	background-color: #bfc0d2;
+	border-radius: 4px;
+}
+
+
+
+#application form input[type=Number]{
+	margin: 2vh 15vh 0vh 5vh;
+	padding: 1vw 5vw 1vw 5vw;
+	border: 1px solid #bfc0d2;
+	background-color: #bfc0d2;
+	border-radius: 4px;
+}
+
+#application form input[type=email]{
+	margin: 2vh 15vh 0vh 5vh;
+	padding: 1vw 5vw 1vw 5vw;
+	border: 1px solid #bfc0d2;
+	background-color: #bfc0d2;
+	border-radius: 4px;
+}
+
+
+#application #form_right{
+	margin: -33vh 0vh 0vh 79vh;
+}
+
+#application form #form_right  input[type=radio]{
+	border: 2px;
+	height: 1.5em;
+	width: 1.5em;
+	margin: 1.5vh 0vh 1.0vh 8vh;
+	padding: 0vw 5vw 1vw 4vw;
+	border: 1px solid #bfc0d2;
+	background-color: #bfc0d2;
+	border-radius: 4px;
+}
+
+#application form #form_right input[type=password]{
+	margin: 2vh 15vh 0vh 8.3vh;
+	padding: 1vw 5vw 1vw 5vw;
+	border: 1px solid #bfc0d2;
+	background-color: #bfc0d2;
+	border-radius: 4px;
+}
+
+
+
+#application form #form_right label{
+	font-size: 23px;
+	margin: -3vh 0vh 0vh 1vh;
+	padding: 1vh 0vh 0vh 0vh;
+}
+
+#application #form_right input[type=text]{
+	margin: 3vh 15vh 0vh 8vh;
+	padding: 1vw 5vw 1vw 5vw;
+	border: 1px solid #bfc0d2;
+	background-color: #bfc0d2;
+	border-radius: 4px;
+}
+
+#application #form_right input[type=img]{
+	margin: 3vh 15vh 0vh 18vh;
+	padding: 1vw 5vw 1vw 5vw;
+	border: 1px solid #bfc0d2;
+	background-color: #bfc0d2;
+	border-radius: 4px;
+}
+
+#application #photo{
+	margin: 5vh 0vh 0vh 60vh;
+}
+#application form input[type=submit]{
+	margin: 8vh 0vh 0vh 75vh;
+	padding: 13px 30px 13px 30px;
+	border-radius: 20px;
+	background-color: #1852d9;
+	font-size: 23px;
+	font-family: serif;
+	cursor: pointer;
+}
+#application form input[type=reset]{
+	margin: 0vh 0vh 0vh 0vh;
+	padding: 13px 30px 13px 30px;
+	border-radius: 20px;
+	background-color: #e31b3d;
+	font-size: 23px;
+	font-family: serif;
+	cursor: pointer;
+}
+
+/*------------------check box----------------------*/
+#application form input[type=checkbox]{
+	margin: 5vh 0vh 0vh 15vh;
+	height: 1.5em;
+	width: 1.5em;
+	color: red;
+}
+
+#application form p{
+	margin: -3.5vh 0vh 0vh 19vh;
+	color: red;
+	font-family: cursive;
+}
+
+
+
+
+

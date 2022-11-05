@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.Examination_Authority{
+	background-color: limegreen;
+	margin: 1vh;
+	border-radius: 5px;
+}
+
+.Examination_Authority .img1{
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .img2{
+	position: absolute;
+	margin: -13vh 0vh 0vh 180vh;
+	padding: 2vh 0vh 2vh 2vh;
+}
+
+.Examination_Authority .text h1{
+	position: absolute;
+	margin: -10vh 0vh 0vh 80vh;
+}
+.Examination_Authority .text h2{
+	position: absolute;
+	margin: -5vh 0vh 0vh 100vh;
+}
+
+#navigation_bar{
+	border: 2px solid grey;
+	position: absolute;
+	margin: 1vh;
+	margin-left: 18.5% ;
+	padding: 1.5vw;
+	word-spacing: 5px;
+	border-radius: 5px;
+
+}
+#navigation_bar a .fas{
+	padding-left: 6px;
+}
+
+#navigation_bar a{
+	margin: 10px;
+	text-decoration: none;
+	color: blue;
+	padding: 20px;
+}
+#navigation_bar a:hover{
+	padding: 15px;
+	background-color: lightgreen;
+	border-radius: 4px;
+}
+
+#navigation_bar #active  {
+	padding: 15px;
+	background-color: lightgreen;
+	border-radius: 4px;
+}
+
+#project_desiners{
+	margin: 20vh 60vh 0vh 60vh;
+	padding: 3vh;
+	border-radius: 50px;
+	border: 2px solid grey;
+	background-color: floralwhite;
+	box-shadow: 2px 2px navajowhite;
+	box-shadow: 5px 5px 5px grey;
+}
+
+#logo{
+
+	margin: -12vh 0vh 0vh 97vh;
+}
+
+#logo img{
+	width: 10%;
+	margin: 0vh 0vh 0vh vh;
+	padding: 0vh 0vh 0vh 0vh;
+	border-radius: 50%;
+}
+
+#details {
+	margin: 2vh 0vh 0vh 0vh;
+	background-color: ghostwhite;
+	box-shadow: 4px 4px 4px darkgrey;
+	border-radius: 7px;
+}
+
+#details h1{
+	font-size: 20px;
+	margin: 0vh 0vh 0vh 1vh;
+}
+
+#details_design{
+	background-color: greenyellow;
+	box-shadow: 15px 15px 15px grey;
+	margin: 5vh 70vh 0vh 70.5vh;
+	border-radius: 15px;
+	padding: 5vh 5vh 4vh 5vh;
+}
+
+#page_footer{
+	position: absolute;
+	margin: 4vh 0vh 0vh 0vh;
+	background-color: palevioletred;
+	padding: 10px;
+}
+
+#page_footer h1{
+	text-align: center;
+	padding: 0vw 40vw 0vw 40vw;
+	font-size: 25px;
+}
+
+#page_footer p{
+	text-align: center;
+}
